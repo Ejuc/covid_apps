@@ -6,8 +6,8 @@ This is work in progress...
 https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx
 
 ## Static Analysis
-https://github.com/MobSF/Mobile-Security-Framework-MobSF
-https://www.immuniweb.com/mobile/
+- https://github.com/MobSF/Mobile-Security-Framework-MobSF
+- https://www.immuniweb.com/mobile/
 
 ## Dynamic Analysis
 - iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao)
