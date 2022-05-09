@@ -5,6 +5,16 @@ This is work in progress...
 ## Methodology 
 https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx
 
+## Static Analysis
+https://github.com/MobSF/Mobile-Security-Framework-MobSF
+https://www.immuniweb.com/mobile/
+
+## Dynamic Analysis
+- iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao)
+- iOS: Filza
+- Android: LogCat, Developer Assistant, Apk Analyzer, Dexplorer, Dev Tools, Dissassembler, SysLog, EX Explorer, MT Manager (suggestions...)
+- BurpSuite Community Ed.
+
 ## Some quick OSINT
 - About LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet
 - About CH app: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
