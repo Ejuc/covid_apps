@@ -30,7 +30,7 @@ Version / Title / ID
 4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet 
 3.5.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier 
 1.3.10   -  Covid19Verify  lv.verification.dgc
-1.18     -  GreenCheck     at.itsv.mobile.cochap 1.18 (developper isn't interested in pentest)
+1.18     -  GreenCheck     at.itsv.mobile.cochap (developper isn't interested in pentest)
 2.0.1    -  GreenPass      com.italinnovation.green_pass
 2.3.2    -  Grüner Pass    at.gv.brz.wallet
 ```
