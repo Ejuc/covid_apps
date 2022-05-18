@@ -1,28 +1,35 @@
 # Technical security validation of the most common vaccination certificate apps in Latvia
 
-## Methodology 
-https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx
+## Resources
+### Methodology 
+- [OWASP Mobile Application Security Verification Standard 1.4.2 (MASVS)](https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx) the documentation itself
+- [MASVS](https://github.com/OWASP/owasp-masvs) at GitHub
+### Courses
+- [MOBISEC](https://mobisec.reyammer.io/) at [EURECOM French Graduate school](https://www.eurecom.fr/)
+- [Reverse Engineering iOS Apps](https://github.com/ivRodriguezCA/RE-iOS-Apps) by [Ivan Rodriguez](https://ivrodriguez.com/)
+- [HackTricks](https://book.hacktricks.xyz/welcome/readme) Ed. by [Carlos Polop](https://github.com/carlospolop)
+- [Hacking Mobile Devices](https://samsclass.info/128/128_S15.shtml) at [City College of San Francisco](https://www.ccsf.edu)
 
-## Static Analysis
-- https://github.com/MobSF/Mobile-Security-Framework-MobSF
-- https://www.immuniweb.com/mobile/
+## Static Analysis Tools
+- [Mobile Security Framework MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
+- [ImmuniWeb Mobile App Security Test Community Ed.]9https://www.immuniweb.com/mobile/)
 
 ## Dynamic Analysis
-- iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao)
-- iOS: Filza
+- iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Filza
 - Android: LogCat, Developer Assistant, Apk Analyzer, Dexplorer, Dev Tools, Dissassembler, SysLog, EX Explorer, MT Manager (suggestions...)
 - BurpSuite Community Ed.
+- "Frida" server and "Objection" injection CLI
 
 ## Some quick OSINT
-- About LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet
-- About CH app: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
+- LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet
+- CH apps: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
 
 Line25: https://github.com/admin-ch/CovidCertificate-Management-Service/blob/c1965356760315ce618b25c3db390d820bc503a2/src/main/java/ch/admin/bag/covidcertificate/CCManagementServiceApplication.java
 
-## app_id (04-05-2022)
+## IDs of the tested apps (as of May 4, 2022)
 iOS:
 ```
-Version / Title / ID
+Version / Title / ID (Comment)
 1.4.6    -  Coronapas      dk.sum.ssicpas (developer didn't authorize API test) 
 4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet (developer didn't authorize API test) 
 4.0.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier (developer didn't authorize API test) 
@@ -33,7 +40,7 @@ Version / Title / ID
 ```
 Android:
 ```
-Version / Title / ID
+Version / Title / ID (Comment)
 1.4.6    -  Coronapas      dk.sum.ssicpas (developer didn't authorize API test) 
 4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet (developer didn't authorize API test) 
 3.5.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier (developer didn't authorize API test) 
