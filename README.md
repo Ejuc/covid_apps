@@ -15,12 +15,17 @@
 - [ImmuniWeb Mobile App Security Test Community Ed.](https://www.immuniweb.com/mobile/)
 
 ## Dynamic Analysis
-- iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Filza
-- Android: LogCat, Developer Assistant, Apk Analyzer, Dexplorer, Dev Tools, Dissassembler, SysLog, EX Explorer, MT Manager
-- BurpSuite Community Ed.
-- "Frida" server and "Objection" injection CLI
+- iOS tools like FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Apps Manager, Filza
+- Android tools like LogCat, Developer Assistant, Apk Analyzer, Dexplorer, Dev Tools, Dissassembler, SysLog, EX Explorer, MT Manager
+- BurpSuite (MitM)
+- "Frida" server and "Objection" injection CLI (iOS and Android)
 
-## Some quick OSINT
+### "Frida" tutorials for Android:
+  - [Frida Android Documentation](https://frida.re/docs/android/)
+  - [Get started with FRIDA (Android dynamic analysis)](https://medium.com/@parfaitayassor/get-started-with-frida-android-dynamic-analysis-cf10b18d5e67) by AshAy
+  - [Getting Started with Frida](https://medium.com/@briskinfosec/getting-started-with-frida-de44d932ae7) by Briskinfosec
+
+## Some quick OSINT on the Apps
 - LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet
 - CH apps: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
 
@@ -50,15 +55,16 @@ Version / Title / ID (Comment)
 2.3.2    -  Grüner Pass    at.gv.brz.wallet (developer didn't authorize API test) 
 ```
 
-## iOS app decryption
-- Jailbreak with checkra1n (or unc0ver or chimera etc.)
+## iOS app decryption recipes
+- Jailbreak with checkra1n (most reliable tool IMHO for older phones with iOS 14.x)
+- Install app manager like Cydia or Zebra and import sources
 - clone https://github.com/AloneMonkey/frida-ios-dump
 - iproxy 2222 44 & sleep 3
 - python3 ./dump.py app_id
 
-## Android app decryption
+## Android app decryption recipes
 - Jailbreak with Magisk
-- sudo apt-get install android-tools-adb android-tools-fastboot
+- sudo apt-get install android-tools-adb android-tools-fastboot (on Linux) OR brew install android-platform-tools (on MacOS)
 - adb version
 - sudo adb start-server
 - enable developer menu and USB debugging on the Android device 
