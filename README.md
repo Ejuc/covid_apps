@@ -2,7 +2,7 @@
 
 ## Resources
 ### Methodology 
-- [OWASP Mobile Application Security Verification Standard 1.4.2 (MASVS)](https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx) the documentation itself
+- [OWASP Mobile Application Security Verification Standard 1.4.2 (MASVS)](https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx) [.docx]
 - [MASVS](https://github.com/OWASP/owasp-masvs) at GitHub
 ### Courses
 - [MOBISEC](https://mobisec.reyammer.io/) at [EURECOM French Graduate school](https://www.eurecom.fr/)
