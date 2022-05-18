@@ -1,7 +1,5 @@
 # Technical security validation of the most common vaccination certificate apps in Latvia
 
-This is work in progress...
-
 ## Methodology 
 https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx
 
@@ -25,24 +23,24 @@ Line25: https://github.com/admin-ch/CovidCertificate-Management-Service/blob/c19
 iOS:
 ```
 Version / Title / ID
-1.4.6    -  Coronapas      dk.sum.ssicpas                        
-4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet  
-4.0.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier
-1.3.10   -  Covid19Verify  lv.verification.dgc                   
-1.18     -  GreenCheck     at.itsv.mobile.cochap (developper isn't interested in pentest)                
-1.4.2    -  GreenPass      com.italinnovation.greenPass          
-2.3.2    -  Grüner Pass    at.gv.brz.wallet          
+1.4.6    -  Coronapas      dk.sum.ssicpas (developer didn't authorize API test) 
+4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet (developer didn't authorize API test) 
+4.0.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier (developer didn't authorize API test) 
+1.3.10   -  Covid19Verify  lv.verification.dgc (developer didn't authorize API test) 
+1.18     -  GreenCheck     at.itsv.mobile.cochap (developer not interested in pentest)                
+1.4.2    -  GreenPass      com.italinnovation.greenPass (developer didn't authorize API test) 
+2.3.2    -  Grüner Pass    at.gv.brz.wallet (developer didn't authorize API test) 
 ```
 Android:
 ```
 Version / Title / ID
-1.4.6    -  Coronapas      dk.sum.ssicpas 
-4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet 
-3.5.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier 
-1.3.10   -  Covid19Verify  lv.verification.dgc
-1.18     -  GreenCheck     at.itsv.mobile.cochap (developper isn't interested in pentest)
-2.0.1    -  GreenPass      com.italinnovation.green_pass
-2.3.2    -  Grüner Pass    at.gv.brz.wallet
+1.4.6    -  Coronapas      dk.sum.ssicpas (developer didn't authorize API test) 
+4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet (developer didn't authorize API test) 
+3.5.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier (developer didn't authorize API test) 
+1.3.10   -  Covid19Verify  lv.verification.dgc (developer didn't authorize API test) 
+1.18     -  GreenCheck     at.itsv.mobile.cochap (developer not interested in pentest)
+2.0.1    -  GreenPass      com.italinnovation.green_pass (developer didn't authorize API test) 
+2.3.2    -  Grüner Pass    at.gv.brz.wallet (developer didn't authorize API test) 
 ```
 
 ## iOS app decryption
@@ -71,3 +69,5 @@ adb pull /data/app/com.italinnovation.green_pass-Ij3k1HCqqH96nu-UXgsIKA==/base.a
 adb pull /data/app/dk.sum.ssicpas-7D4OV4X_1tUMGk6i8R14gQ==/base.apk /home/ejus/Desktop/covid/apk/2/dk.sum.ssicpas
 adb pull /data/app/at.gv.brz.wallet-Ev23EnkNfQ0PH-BT4JceBQ==/base.apk /home/ejus/Desktop/covid/apk/2/at.gv.brz.wallet
 ```
+
+
