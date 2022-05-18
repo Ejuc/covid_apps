@@ -16,7 +16,7 @@
 
 ## Dynamic Analysis
 - iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Filza
-- Android: LogCat, Developer Assistant, Apk Analyzer, Dexplorer, Dev Tools, Dissassembler, SysLog, EX Explorer, MT Manager (suggestions...)
+- Android: LogCat, Developer Assistant, Apk Analyzer, Dexplorer, Dev Tools, Dissassembler, SysLog, EX Explorer, MT Manager
 - BurpSuite Community Ed.
 - "Frida" server and "Objection" injection CLI
 
