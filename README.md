@@ -2,7 +2,7 @@
 
 ## Resources
 ### Methodology 
-- [OWASP Mobile Application Security Verification Standard 1.4.2 (MASVS)](https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx) [.docx]
+- [OWASP Mobile Application Security Verification Standard 1.4.2 (MASVS)](https://github.com/OWASP/owasp-masvs/releases/download/v1.4.2/OWASP_MASVS-v1.4.2-en_WIP_.docx) (Word document)
 - [MASVS](https://github.com/OWASP/owasp-masvs) at GitHub
 ### Courses
 - [MOBISEC](https://mobisec.reyammer.io/) at [EURECOM French Graduate school](https://www.eurecom.fr/)
@@ -12,7 +12,7 @@
 
 ## Static Analysis Tools
 - [Mobile Security Framework MobSF](https://github.com/MobSF/Mobile-Security-Framework-MobSF)
-- [ImmuniWeb Mobile App Security Test Community Ed.]9https://www.immuniweb.com/mobile/)
+- [ImmuniWeb Mobile App Security Test Community Ed.](https://www.immuniweb.com/mobile/)
 
 ## Dynamic Analysis
 - iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Filza
