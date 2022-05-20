@@ -48,7 +48,7 @@ Android:
 Version / Title / ID (Comment)
 1.4.6    -  Coronapas      dk.sum.ssicpas (developer didn't authorize API test) 
 4.1.0    -  Covid Cert     ch.admin.bag.covidcertificate.wallet (developer didn't authorize API test) 
-3.5.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier (developer didn't authorize API test) 
+4.0.0    -  Covid Check    ch.admin.bag.covidcertificate.verifier (developer didn't authorize API test) 
 1.3.10   -  Covid19Verify  lv.verification.dgc (developer didn't authorize API test) 
 1.18     -  GreenCheck     at.itsv.mobile.cochap (developer not interested in pentest)
 2.0.1    -  GreenPass      com.italinnovation.green_pass (developer didn't authorize API test) 
