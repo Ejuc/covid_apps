@@ -28,8 +28,7 @@
 ## Some OSINT on the Apps
 - LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet
 - CH apps: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
-
-Line25: https://github.com/admin-ch/CovidCertificate-Management-Service/blob/c1965356760315ce618b25c3db390d820bc503a2/src/main/java/ch/admin/bag/covidcertificate/CCManagementServiceApplication.java
+  - [Line25](https://github.com/admin-ch/CovidCertificate-Management-Service/blob/c1965356760315ce618b25c3db390d820bc503a2/src/main/java/ch/admin/bag/covidcertificate/CCManagementServiceApplication.java)
 
 ## IDs of the tested apps (as of May 4, 2022)
 iOS:
