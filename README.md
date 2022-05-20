@@ -15,17 +15,17 @@
 - [ImmuniWeb Mobile App Security Test Community Ed.](https://www.immuniweb.com/mobile/)
 
 ## Dynamic Analysis Tools
-- iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Apps Manager, Filza
+- iOS: [FLEXLoader](https://www.tweakschanges.com/cydia-package/flipboard-flex-loader) by Xueshi Qiao, [Apps Manager](https://www.tweakschanges.com/cydia-package/apps-manager), [Filza](https://www.tweakschanges.com/cydia-package/filza-file-manager)
 - Android: Apk Analyzer, Dexplorer, Dev Tools
-- BurpSuite (MitM proxy)
+- [BurpSuite](https://portswigger.net/burp/communitydownload) (MitM proxy)
 - "[Frida](https://github.com/frida/frida)" server and "[Objection](https://github.com/sensepost/objection)" injection CLI
 
-### "Frida" tutorials for Android:
+#### "Frida" tutorials for Android:
   - [Frida Android Documentation](https://frida.re/docs/android/)
   - [Get started with FRIDA (Android dynamic analysis)](https://medium.com/@parfaitayassor/get-started-with-frida-android-dynamic-analysis-cf10b18d5e67) by AshAy
   - [Getting Started with Frida](https://medium.com/@briskinfosec/getting-started-with-frida-de44d932ae7) by Briskinfosec
 
-## Some OSINT on the Apps
+## Valuable insight on the apps (OSINT)
 - LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet
 - CH apps: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
   - [Line25](https://github.com/admin-ch/CovidCertificate-Management-Service/blob/c1965356760315ce618b25c3db390d820bc503a2/src/main/java/ch/admin/bag/covidcertificate/CCManagementServiceApplication.java)
