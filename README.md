@@ -18,7 +18,7 @@
 - iOS: FLEXLoader (FLEX + RHRevealLoader by Xueshi Qiao), Apps Manager, Filza
 - Android: Apk Analyzer, Dexplorer, Dev Tools
 - BurpSuite (MitM proxy)
-- "Frida" server and "Objection" injection CLI
+- "[Frida](https://github.com/frida/frida)" server and "[Objection](https://github.com/sensepost/objection)" injection CLI
 
 ### "Frida" tutorials for Android:
   - [Frida Android Documentation](https://frida.re/docs/android/)
@@ -54,16 +54,16 @@ Version / Title / ID (Comment)
 2.3.2    -  Grüner Pass    at.gv.brz.wallet (developer didn't authorize API test) 
 ```
 
-## iOS app decryption recipes
+## iOS app decryption
 - Jailbreak with checkra1n (most reliable tool IMHO for older phones with iOS 14.x)
 - Install app manager like Cydia or Zebra and import sources
 - clone https://github.com/AloneMonkey/frida-ios-dump
 - iproxy 2222 44 & sleep 3
 - python3 ./dump.py app_id
 
-## Android app decryption recipes
+## Android app decryption
 - Jailbreak with Magisk
-- sudo apt-get install android-tools-adb android-tools-fastboot (on Linux) OR brew install android-platform-tools (on MacOS)
+- sudo apt-get install android-tools-adb android-tools-fastboot (Linux) OR brew install android-platform-tools (MacOS)
 - adb version
 - sudo adb start-server
 - enable developer menu and USB debugging on the Android device 
