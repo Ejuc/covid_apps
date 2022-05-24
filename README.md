@@ -26,7 +26,9 @@
   - [Getting Started with Frida](https://medium.com/@briskinfosec/getting-started-with-frida-de44d932ae7) by Briskinfosec
 
 ## Valuable insight on the apps (OSINT)
-- LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet https://covid19sertifikats.lv/verify/rules.json
+- LV app: https://api.covid19sertifikats.lv/api-cert/swagger/index.html#/ValueSet 
+https://covid19sertifikats.lv/verify/rules.json 
+https://api.covid19sertifikats.lv/api-cert/api/cert
 - CH apps: https://www.ncsc.admin.ch/dam/ncsc/de/dokumente/dokumentation/covid-certificate-test/swiss-covid_public_security_test_current_findings.pdf 
   - [Line25](https://github.com/admin-ch/CovidCertificate-Management-Service/blob/c1965356760315ce618b25c3db390d820bc503a2/src/main/java/ch/admin/bag/covidcertificate/CCManagementServiceApplication.java)
 
